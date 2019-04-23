@@ -11,7 +11,7 @@ defmodule Landingpage.Application do
     children = [
       # Starts a worker by calling: Landingpage.Worker.start_link(arg)
       # {Landingpage.Worker, arg}
-      {Plug.Cowboy, scheme: :http, plug: Landingpage.HomePlug, options: [port: 4000]}
+      {Plug.Cowboy, scheme: :http, plug: Landingpage.Router, options: [port: 4000]}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
