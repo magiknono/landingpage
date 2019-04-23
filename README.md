@@ -1,6 +1,7 @@
 # Landingpage
 
-**TODO: Add description**
+**start Cowboy server: mix run --no-halt**
+**open web browser: http://localhost:4000**
 
 ## Installation
 
